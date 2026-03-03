@@ -1,5 +1,29 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v8.3/.Modules/settings.schema.json",
   "type": "PTE",
-  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main"
+  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
+  "installOnlyReferencedApps": false,
+  "trustMicrosoftNuGetFeeds": true,
+  "trustedNuGetFeeds": [
+    {
+      "url": "https://nuget.pkg.github.com/gitspacecadet/index.json",
+      "authTokenSecret": "GhTokenWorkflow",
+      "patterns": ["K3.*"]
+    }
+  ],
+  "useCompilerFolder": false,
+  "doNotPublishApps": true,
+  "skipUpgrade": false,
+  "enablePerTenantExtensionCop": true,
+  "installOnlyReferencedApps": false,
+  "runs-on": "self-hosted",
+  "githubRunner": "self-hosted",
+  "incrementalBuilds": {
+    "onPush": false,
+    "onPull_Request": false,
+    "onSchedule": false,
+    "retentionDays": 30,
+    "mode": "modifiedApps"
+  },
+  "versioningStrategy": 3
 }
