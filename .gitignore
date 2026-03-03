@@ -1,21 +1,28 @@
-*.app
-*.flf
-*.bclicense
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!*.rapidstart
+.alpackages/*
+*DS_Store*
+
+# ignore a single file
+# mycode.class
+
+# ignore an entire directory (all direcions use forward slash not backslash
+# /mydebugdir/
+
+# ignore a file type
 *.g.xlf
-.DS_Store
-Thumbs.db
-TestResults*.xml
-bcptTestResults*.json
-BuildOutput.txt
-rad.json
-.output/
-.dependencies/
-.buildartifacts/
-.alpackages/
-.packages/
-.alcache/
-.altemplates/
-.altestrunner/
-.snapshots/
-cache_*
-~$*
+*.json
+*.app
+*.code-workspace
+# add an exception (using !) to the preceding rule to track a specific file
+# !package.json
+
+# !settings.json
+!app.json
+!AppSourceCop.json
+!.AL-Go/*.json
+!.github/*.json
