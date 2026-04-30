@@ -13,6 +13,7 @@
   ],
   "useCompilerFolder": false,
   "doNotPublishApps": true,
+  "doNotBuildTests": true,
   "skipUpgrade": false,
   "enablePerTenantExtensionCop": true,
   "installOnlyReferencedApps": false,
