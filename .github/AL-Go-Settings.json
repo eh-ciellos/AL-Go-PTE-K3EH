@@ -17,8 +17,8 @@
   "skipUpgrade": false,
   "enablePerTenantExtensionCop": true,
   "installOnlyReferencedApps": false,
-  "runs-on": "self-hosted",
-  "githubRunner": "self-hosted",
+  "runs-on": "ubuntu-latest",
+  "githubRunner": "windows-latest",
   "incrementalBuilds": {
     "onPush": false,
     "onPull_Request": false,
