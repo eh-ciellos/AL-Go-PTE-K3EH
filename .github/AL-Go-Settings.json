@@ -11,12 +11,9 @@
       "patterns": ["K3.*"]
     }
   ],
-  "useCompilerFolder": false,
-  "doNotPublishApps": true,
   "doNotBuildTests": true,
   "skipUpgrade": false,
   "enablePerTenantExtensionCop": true,
-  "installOnlyReferencedApps": false,
   "runs-on": "ubuntu-latest",
   "githubRunner": "windows-latest",
   "incrementalBuilds": {
