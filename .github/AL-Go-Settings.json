@@ -6,7 +6,7 @@
   "trustMicrosoftNuGetFeeds": true,
   "trustedNuGetFeeds": [
     {
-      "url": "https://nuget.pkg.github.com/gitspacecadet/index.json",
+      "url": "https://nuget.pkg.github.com/K3-Fashion-Solutions/index.json",
       "authTokenSecret": "GhTokenWorkflow",
       "patterns": ["K3.*"]
     }
