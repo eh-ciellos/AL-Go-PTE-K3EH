@@ -8,7 +8,7 @@
     {
       "url": "https://nuget.pkg.github.com/K3-Fashion-Solutions/index.json",
       "authTokenSecret": "GhTokenWorkflow",
-      "patterns": ["K3.*"]
+      "patterns": ["K3UTL.*"]
     }
   ],
   "doNotBuildTests": true,
